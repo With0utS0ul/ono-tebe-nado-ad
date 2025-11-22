@@ -81,6 +81,7 @@ main {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -90,7 +91,7 @@ main {
   z-index: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.6000000238418579;
+  opacity: 0.6;
   background-color: #000000;
 }
 
@@ -121,12 +122,6 @@ main {
   line-height: 1;
   text-align: right;
 }
-
-.letter-spacing-extended {
-  letter-spacing: 60px;
-}
-
-/* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
 
 .remove-spacing {
   letter-spacing: normal;
@@ -187,13 +182,14 @@ main {
   list-style: none;
 }
 
-.lost__card-list-item {
+.lots__card-list-item {
   height: 100%;
 }
 
 .card-link {
   display: block;
   height: 100%;
+  text-decoration: none
 }
 
 .card {
@@ -211,11 +207,13 @@ main {
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -223,6 +221,7 @@ main {
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .card__title {
